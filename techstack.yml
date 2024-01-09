@@ -1,0 +1,422 @@
+repo_name: 2lambda123/rnoaa
+report_id: b25249fce89e4a93bd13dd62f4137f01
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:09+00:00'
+requested_by: maelle
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/rnoaa
+  detection_source: Repo Metadata
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/2lambda123/rnoaa
+  detection_source: Repo Metadata
+- name: XML
+  description: A simple, very flexible text format
+  website_url: http://www.w3.org/XML/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2045/xml-logo.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: ggplot2
+  description: A data visualization package for the statistical programming language
+    R
+  website_url: https://ggplot2.tidyverse.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/6560/New_Project__90_.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-08-03 18:30:30.000000000 Z
+- name: JSONlite
+  description: A simple, serverless, zero-configuration JSON document store
+  website_url: https://github.com/nodesocket/jsonlite
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Bob Rudis
+  last_updated_on: 2016-04-01 18:40:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/rnoaa
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/.github/workflows/R-check.yaml
+  detection_source: ".github/workflows/R-check.yaml"
+  last_updated_by: Daniel Hocking
+  last_updated_on: 2023-04-23 02:14:59.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: XML
+  description: Tools for Parsing and Generating XML Within R and S-Plus
+  package_url: https://cran.r-project.org/XML
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: crul
+  description: HTTP Client
+  package_url: https://cran.r-project.org/crul
+  version: 0.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2019-01-14 21:52:32.000000000 Z
+- name: data.table
+  description: Extension of 'data.frame'
+  package_url: https://cran.r-project.org/data.table
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Elio Campitelli
+  last_updated_on: 2020-06-04 19:22:59.000000000 Z
+- name: dplyr
+  description: A Grammar of Data Manipulation
+  package_url: https://cran.r-project.org/dplyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2015-01-07 19:25:05.000000000 Z
+- name: geonames
+  description: Interface to the "Geonames" Spatial Query Web Service
+  package_url: https://cran.r-project.org/geonames
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2017-02-08 12:49:39.000000000 Z
+- name: ggplot2
+  description: Create Elegant Data Visualisations Using the Grammar of Graphics
+  package_url: https://cran.r-project.org/ggplot2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-08-03 18:30:30.000000000 Z
+- name: gridExtra
+  description: Miscellaneous Functions for "Grid" Graphics
+  package_url: https://cran.r-project.org/gridExtra
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2016-08-24 00:17:02.000000000 Z
+- name: hoardr
+  description: Manage Cached Files
+  package_url: https://cran.r-project.org/hoardr
+  version: 0.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Elio Campitelli
+  last_updated_on: 2020-06-04 19:22:59.000000000 Z
+- name: isdparser
+  description: Parse 'NOAA' Integrated Surface Data Files
+  package_url: https://cran.r-project.org/isdparser
+  version: 0.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2017-01-18 18:33:07.000000000 Z
+- name: jsonlite
+  description: A Simple and Robust JSON Parser and Generator for R
+  package_url: https://cran.r-project.org/jsonlite
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Bob Rudis
+  last_updated_on: 2016-04-01 18:40:03.000000000 Z
+- name: leaflet
+  description: |-
+    Create Interactive Web Maps with the JavaScript 'Leaflet'
+    Library
+  package_url: https://cran.r-project.org/leaflet
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2015-10-21 00:12:05.000000000 Z
+- name: lubridate
+  description: Make Dealing with Dates a Little Easier
+  package_url: https://cran.r-project.org/lubridate
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: ncdf4
+  description: Interface to Unidata netCDF
+  package_url: https://cran.r-project.org/ncdf4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2015-12-01 01:01:21.000000000 Z
+- name: purrr
+  description: Functional Programming Tools
+  package_url: https://cran.r-project.org/purrr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Brooke Anderson
+  last_updated_on: 2016-07-14 22:15:42.000000000 Z
+- name: raster
+  description: Geographic Data Analysis and Modeling
+  package_url: https://cran.r-project.org/raster
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2017-12-01 19:29:01.000000000 Z
+- name: rgdal
+  description: Bindings for the 'Geospatial' Data Abstraction Library
+  package_url: https://cran.r-project.org/rgdal
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2016-03-29 00:50:14.000000000 Z
+- name: roxygen2
+  description: In-Line Documentation for R
+  package_url: https://cran.r-project.org/roxygen2
+  version: 7.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Daniel Hocking
+  last_updated_on: 2023-04-23 02:04:22.000000000 Z
+- name: scales
+  description: Scale Functions for Visualization
+  package_url: https://cran.r-project.org/scales
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-11-21 03:27:34.000000000 Z
+- name: taxize
+  description: Taxonomic Information from Around the Web
+  package_url: https://cran.r-project.org/taxize
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2015-06-18 21:54:44.000000000 Z
+- name: testthat
+  description: Unit Testing for R
+  package_url: https://cran.r-project.org/testthat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: tibble
+  description: Simple Data Frames
+  package_url: https://cran.r-project.org/tibble
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2016-11-01 21:48:54.000000000 Z
+- name: tidyr
+  description: Tidy Messy Data
+  package_url: https://cran.r-project.org/tidyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2019-09-23 19:16:05.000000000 Z
+- name: tidyselect
+  description: Select from a Set of Strings
+  package_url: https://cran.r-project.org/tidyselect
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2019-09-23 19:16:05.000000000 Z
+- name: vcr
+  description: Record 'HTTP' Calls to Disk
+  package_url: https://cran.r-project.org/vcr
+  version: 0.5.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: schamberlain
+  last_updated_on: 2013-07-09 00:23:16.000000000 Z
+- name: webmockr
+  description: Stubbing and Setting Expectations on 'HTTP' Requests
+  package_url: https://cran.r-project.org/webmockr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2020-03-23 18:32:50.000000000 Z
+- name: xml2
+  description: Parse XML
+  package_url: https://cran.r-project.org/xml2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/rnoaa/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Scott Chamberlain
+  last_updated_on: 2016-10-06 19:58:50.000000000 Z
